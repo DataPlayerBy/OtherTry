@@ -1,0 +1,14 @@
+// 启动关闭服务
+adb start/kill-server
+
+// 操作 
+左滑
+adb shell input swipe 1000 1000 300 1000
+右滑
+adb shell input swipe 300 1000 1000 1000
+下滑
+adb shell input swipe 0 0 0 1000
+上滑
+adb shell input swipe 0 1000 0 0
+点击
+adb shell input tap 100 100
